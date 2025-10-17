@@ -9,26 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.11.0",
     "@hookform/resolvers": "^5.2.2",
     "@ignite-ui/react": "^2.2.4",
+    "@prisma/client": "^6.16.3",
+    "axios": "^1.12.2",
     "lucide-react": "^0.525.0",
     "next": "15.4.7",
+    "next-auth": "^4.24.11",
     "phosphor-react": "^1.4.1",
-    "react": "^19.0.0-rc.1",
-    "react-dom": "^19.0.0-rc.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-hook-form": "^7.63.0",
-    "react-server-dom-webpack": "^19.0.0-rc.1",
+    "react-toastify": "^11.0.5",
     "zod": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@rocketseat/eslint-config": "^2.2.2",
     "@tailwindcss/postcss": "^4",
+    "@types/cookie": "^0.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
+    "prisma": "^6.16.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

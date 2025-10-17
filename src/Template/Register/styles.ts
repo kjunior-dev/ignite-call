@@ -33,3 +33,7 @@ export const Form = styled(Box, {
 })
 
 export const Input = styled(TextInput, {})
+
+export const FormErro = styled(Text, {
+    color: '#f75a68',
+})
