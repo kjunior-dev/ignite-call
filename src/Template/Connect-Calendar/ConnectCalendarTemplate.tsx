@@ -25,7 +25,8 @@ export function ConnectCalendarTemplate() {
                     Conecte sua agenda!
                 </Heading>
                 <Text>
-                    Conecte o seu calendário para verificar automaticamente as horas ocupadas e os novos eventos à medida em que são agendados.
+                    Conecte o seu calendário para verificar automaticamente as horas
+                    ocupadas e os novos eventos à medida em que são agendados.
                 </Text>
 
                 <MultiStep size={4} currentStep={2}/>
